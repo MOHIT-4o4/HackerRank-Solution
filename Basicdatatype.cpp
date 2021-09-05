@@ -1,20 +1,16 @@
 #include <iostream>
-#include<iomanip>
+#include <cstdio>
 using namespace std;
 
 int main() {
     // Complete the code.
     int a;
-    long long b;
-    float c;
-    double d ;
-    char e;
-    
-    cin>>a>>b>>e>>d>>c;
-    cout<<a<<endl;
-    cout<<b<<endl;
-    cout<<e<<endl;
-    cout<<setprecision(3)<<d<<endl;
-    cout<<setprecision(6)<<c<<endl;
+    long b;
+    char c;
+    float d;
+    double e;
+
+    scanf("%d %ld %c %f %lf", &a, &b, &c, &d, &e);
+    printf("%d\n%ld\n%c\n%f\n%lf", a, b,c, d, e);
     return 0;
 }
